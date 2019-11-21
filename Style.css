@@ -147,3 +147,11 @@ h1 {
 b {
 	text-align:center;
 }
+
+.team-space {
+	background-image:url('#');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	min-width: 100%;
+    min-height: 100%;
+}
