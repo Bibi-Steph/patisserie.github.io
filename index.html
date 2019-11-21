@@ -1,121 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-	<meta charset="UTF-8">
-	<title>Charlotte Rivière - Graphiste - WebDesigner - Freelance</title>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <title>Pâtisserie CloClo</title>
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Montserrat:200,400,800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="Style.css">
 
 </head>
 
 <body>
 
-  <div class="navbarre">
-    <h1>Charlotte Sevestre Rivière</h1>
-  <img src="Charlotte_Rivière.JPG"alt="Charlotte Rivière">
-   </div>
+<div class="navbar">
 
-  <div class="test-flex">
-    <a href="Monprofil.html">
-      <button type="button" class="btn btn-secondary btn-lg">Mon profil</button>
-    </a>
-    <button type="button" class="btn btn-secondary btn-lg">Mes projets</button>
-    <button type="button" class="btn btn-secondary btn-lg">Contact</button>
+  <a class="logo" href ="#">
+    <img src="Logos/part gateau.png" alt="logo">
+  </a>
+
+  <div class="menu">
+    <a href="#" class="link">Maison</a>
+    <a href="#" class="link">Nos gourmandises</a>
+    <a href="#" class="link">Qui sommes-nous?</a>
+    <a href="#" class="link">Actus du moment</a>
+    <a href="#" class="link">Contact</a>
   </div>
+
+</div>
+
+
+<div class="bd-example">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="Images/Ext shop dark.jpeg" class="d-block w-100 img-carousel" alt="Vitrine">
+        <div class="carousel-caption d-none d-md-block">
+          <img src="Logos/Logoblanc.png" class="big-logo" alt="Logo blanc">
+          <h3>Bordeaux</h3>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Images/tarte abricot.jpg" class="d-block w-100 img-carousel" alt="Tarte abricot">
+        <div class="carousel-caption d-none d-md-block impatients-text">
+         <h2>Des gourmandises toute l'année! Petit coup d'oeil sur notre vitrine.</h2>
+       </div>
+       <div class="carousel-caption d-none d-md-block gourmandises-clic">
+         <a href="#">
+           <button type="button" class="btn btn-secondary btn-lg">Nos gourmandises</button>
+         </a>a
+       </div>
+      </div>
+
+     <div class="carousel-item">
+      <img src="Images/gateau noel1.jpg" class="d-block w-100 img-carousel" alt="Gâteau noël">
+      <div class="carousel-caption d-none d-md-block actus-clic">
+       <a href="#">
+         <button type="button" class="btn btn-secondary btn-lg">Actus du moment</button>
+       </a>
+     </div>
+     <div class="carousel-caption d-none d-md-block christmas-text">
+       <h2>Noêl approche à grands pas! Découvrez vite notre sélection dans les "actus du moment".</h2>
+     </div>
+    </div>
+
+   <div class="carousel-item">
+    <img src="Images/presentation comptoir.jpg" class="d-block w-100 img-carousel" alt="Présentation">
+    <div class="carousel-caption d-none d-md-block contact-clic">
+     <a href="#">
+       <button type="button" class="btn btn-secondary btn-lg">Contact</button>
+     </a>
+   </div>
+   <div class="carousel-caption d-none d-md-block events-text">
+    <h2>Nous adaptons nos gourmandises pour chacun de vos évènements! N'hésitez pas à nous contacter pour passer commande. </h2>
+  </div>
+</div>
+
+<div class="carousel-item">
+  <img src="Images/vegan cake.jpg" class="d-block w-100 img-carousel" alt="Gateaux vegan">
+  <div class="carousel-caption d-none d-md-block vegan-text">
+    <h2>Nous proposons également des produits vegan, sans gluten...Venez nous rendre visite pour plus d'informations. </h2>
+  </div>
+</div>
+</div>
+
+<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+<br>
+
+<div class="def-pat">
+  <p>La pâtisserie CloClo, c'est tout un univers de gourmandises alléchantes dans un espace convivial et familial. Nous vous proposons de la pâtisserie bio à des prix raisonnables, en prenant en compte de toutes sortes de sensibilités alimentaires (sans allergènes, gluten, produits laitiers ni œufs si nécessaire). Les gâteaux sont fabriqués à partir d'ingrédients sains et naturels, exclusivement avec des produits issus de l'agriculture biologique, locaux de préférence, et de saison. C'est une véritable alternative à ceux qui voudraient consommer différemment en se faisant plaisir.</p>
+</div>
+
+<br>
+
+<div class="team-space">
+
+  <h1>La team</h1>
 
   <br>
+  <br>
 
-  <div class="container">
-  <div class="row">
-    <div class="col-sm">
-    <a href="Monprofil.html">
-       <button type="button" class="btn btn-secondary btn-lg">Mon profil</button>
-    </a>
+  <div class="container m-auto">
+   <div class="row">
+    <div class="col-12 col-md-4">
+      <div class="card">
+       <img src="Images/Perrine.png" class="card-img-top image-cap" alt="Photo perrine">
+       <br>
+       <div class="card-body">
+        <h5 class="card-title">Perrine FERRE</h5>
+        <h6 class="card-title">Accueil - Vente</h6>
+        <br>
+        <p class="card-text parcours-style">De nature consciencieuse et ordonnée, j'accompagne la pâtisserie Cloclo pour l'accueil et la vente. J'assure un service de qualité en répondant le plus justement à vos besoins.</p>
+      </div>
     </div>
-    <div class="col-sm">
-       <button type="button" class="btn btn-secondary btn-lg">Mes projets</button>
-    </div>
-    <div class="col-sm">
-       <button type="button" class="btn btn-secondary btn-lg">Contact</button>
+  </div>
+
+  <div class="col-12 col-md-4">
+    <div class="card">
+     <img src="Images/Claudine.png" class="card-img-top image-cap" alt="Photo Claudine">
+     <br>
+     <div class="card-body">
+      <h5 class="card-title">Claudine PRADAL</h5>
+      <h6 class="card-title">Gérance - Evénementiel</h6>
+      <br>
+      <p class="card-text parcours-style">J'aborde le développement de ma pâtisserie comme un travail d'équipe, un accompagnement où chaque collaborateur du projet peut apporter sa pierre à l'édifice. Curieuse, pétillante, je met également dans l'évnénementiel à votre service afin de vous faire vivre de véritable souvenirs inoubliables.</p>
     </div>
   </div>
 </div>
 
-    <h2>J'analyse et élabore en amont les stratégies adéquates pour la création et la réalisation des supports d'une communication optimale.</h2>
-
-  <div class="competence_content">
-  	<div class="competence1_card">
-  	  <h3>STRATÉGIE</h3>
-       <a href="Strategie.html">
-         <img src="Stratégie.jpg" alt="Stratégie">
-       </a>
-  	</div>
-    <div class="competence2_card">
-      <h3>IDENTITE GRAPHIQUE</h3>
-  	  <img src="Graphique.jpg"alt="Digital">
-  	</div>
-  	<div class="competence3_card">
-      <h3>DIGITAL</h3>
-  	  <img src="Digital.jpg"alt="Digital">
-  	</div>
-    <div class="competence4_card">
-  	  <h3>PRINT</h3>
-  	  <img src="Print.jpg"alt="Print">
-  	</div>
-
+<div class="col-sm-4">
+  <div class="card">
+   <img src="Images/Jonathan.jpg" class="card-img-top image-cap" alt="Photo Jonathan">
+   <br>
+   <div class="card-body">
+    <h5 class="card-title">Jonathan SERAFINI</h5>
+    <h6 class="card-title">Chef pâtissier - Créatif</h6>
+    <br>
+    <p class="card-text parcours-style">En tant que chef, j'aime pimenter mon quotidien de challenges, de renouvellements et de rencontres car le rôle du cuisinier est d'accompagner ses clients dans la conception de leurs projets avec leurs particularités et leurs défis techniques.</p>
   </div>
+</div>
+</div>
+</div>
+</div>
 
-<table class="table table-dark">
-  <thead>
-    <span class="border"></span>
-    <tr>
-      <th scope="col">*</th>
-      <th scope="col">Compétences</th>
-      <th scope="col">Outils</th>
-      <th scope="col">Langues</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Design Graphique</td>
-      <td>Photoshop/Illustator/InDesign</td>
-      <td>Français</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Stratégie/marketing</td>
-      <td>Word/Power-Point/Excel</td>
-      <td>Anglais</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Technique de  vente/GRC</td>
-      <td>HTML5/CSS3</td>
-      <td>Chinois</td>
-    </tr>
-  </tbody>
-</table>
+<br>
+<br>
+
+</div>
+
+<h1> Contact</h1>
+
+<br>
+
+
+<div class="container-contact">
+  <p>Pour tous renseignements ou commandes, n'hésitez pas à nous contacter, nous répondons dans un délais de 48h.</p>
+  <br>
+  <br>
+
+
+  <div class="contact-card"> 
+    <div class="left-card-contact">
+      <b>Pâtisserie CloClo - Adresse postale</b>
+      <br>
+      <br>
+      <p>14 rue du loup</p>
+      <p>33000 BORDEAUX</p>
+      <br>
+      <p>
+        <i class="fas fa-envelope"></i>
+        contact@patisserie-cloclo.com
+        <br>
+        <br>
+        <a class="typeform-share button" href="https://chariver.typeform.com/to/Av5mDS" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#94AE89;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Contactez-nous </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+      </p>
+      <p>
+        <i class="fas fa-phone"></i>
+        05 46 24 63 35
+      </p>
+      <p>
+        <i class="fas fa-clock"></i>
+        Tous les jours de 7H30-20H30
+      </p>
+    </div>
+
+    <div class="right-card-contact">
+      <b>Pâtisserie CloClo - La boutique</b>
+      <br>
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.196445881859!2d-0.5745207844634119!3d44.837932579098606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527cf9af55899%3A0xfeb9dad322464856!2s14%20Rue%20du%20Loup%2C%2033000%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1574173214980!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+  </div>
+</div>
+
+
 
 <div class="footer">
-  <p>N'hésitez pas à me contacter:   
-    <a href="https://fr.linkedin.com/" target="_blank">
-      <i class="fab fa-linkedin"></i>
+  <div class="footer-links">
+    <a href="#">
+      <i class="fab fa-facebook-f"></i>
     </a>
-    <a href="http://fr.viadeo.com/fr/" target="_blank">
-      <i class="fab fa-viadeo-square"></i>
+    <a href="#">
+      <i class="fab fa-instagram"></i>
     </a>
-  </p>
+    <a href="#">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </div>
 </div>
 
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
