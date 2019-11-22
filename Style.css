@@ -3,13 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	box-shadow: 0px 1.5px 10px grey;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	z-index: 10;
-	background: white;
-
-
+	width:100%;
 }
 
 .logo>img {
@@ -120,16 +114,22 @@ h6 {
     border-radius:10%;
     width:200px;
 	height:200px;
-	margin-left: auto;
-    margin-right: auto
+	margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
 }
 
-h1 {
+.container-contact>h1  {
 	text-align:center;
 	color:#587062;
 	font-family:arial;
 }
 
+.team-space>h1 {
+	text-align:center;
+	color:white;
+	font-family:arial;
+}
 .parcours-style {
 	text-align:justify;
 }
@@ -147,7 +147,6 @@ h1 {
 }
 .contact-card {
 	display:flex;
-	justify-content:center;
 	justify-content:space-around;
 }
 
@@ -156,88 +155,50 @@ b {
 }
 
 .team-space {
-	background-image:url('#');
-	background-repeat: no-repeat;
+	background-image:url('Images/farine.jpg');
+    background-repeat: no-repeat;
 	background-attachment:fixed;
-	min-width: 100%;
-    min-height: 100%;
-
-}
-.position {
-	font-family: arial;
-	font-size: 24px;
 }
 
-.article {
-	display: flex;
-	margin-bottom: 10px;
-	margin-top: 30px;
-	width: 100%;
-
+.footer {
+	padding: 0px 50px;
+	height:70px;
+    box-shadow: 0px 1.5px 10px grey;
+	width:100%;
 }
 
-.btn-shape{
-	text-decoration: none;
-    background: #587062;
-    margin: 5px;
-    padding: 5px;
-    margin-left: 30px;
-    color: white;
-    font-size: 14px;
-    font-family: arial;
-    font-weight: bold;
-    border-radius: 4px;
-    display: flex;
-    justify-content: left;
-           
- }
+.footer-links {
+	display:flex;
+}
 
-.btn-shape:hover {
-	background:white;
+.footer-logos {
+	display:flex;
+}
+
+.footer-partners {
+	display:flex;
+}
+
+.icones-reseaux {
 	color:#472B26;
-	text-decoration:none;
-}
-.scary{
-	font-family: 'Stranger back in the Night';
-	font-size: 24px;
-	font-weight: lighter;
-}
-.deroulant{
-	width: 70%;
-	
-}
-.blog{
-	text-decoration: none;
-    background: #587062;
-    margin: 5px;
-    padding: 5px;
-    margin-left: 30px;
-    color: white;
-    font-size: 14px;
-    font-family: arial;
-    font-weight: bold;
-    border-radius: 4px;
-}
-.blog:hover{
-	background:white;
-	color:#472B26;
+	font-size:35px;
+	object-fit:cover;
+	margin-right:10px;
+	margin-top:15px;
 }
 
-.newsletter{
-	color:#472B26!important;
+.card {
+	background-color:rgba(255, 255, 255, 0.8);
 }
 
-@font-face{
-	font-family: "Stranger back in the Night";
-	src:url("police:Stanger back in the Night.ttf");
+.logos-size {
+    height:10vh;
+    object-fit: cover;
+	margin-right:25px;
 }
-.grille{
-	margin-top: 150px;
-}
-.img-height{
-	height: 30vh;
 
-}
-.img-fit{
-	object-fit: cover;
+.contenair-footer {
+	display:flex;
+	width:100%;
+	justify-content:space-between;
 }
