@@ -3,6 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	box-shadow: 0px 1.5px 10px grey;
+
 }
 
 .logo>img {
@@ -146,4 +147,101 @@ h1 {
 
 b {
 	text-align:center;
+}
+.position {
+	font-family: arial;
+	font-size: 24px;
+}
+
+.article {
+	display: flex;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	width: 100%;
+
+}
+
+.btn-shape{
+	text-decoration: none;
+    background: #587062;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    color: white;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 4px;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+           
+ }
+
+.btn-shape:hover {
+	background:white;
+	color:#472B26;
+	text-decoration:none;
+}
+.scary{
+	font-family: 'Stranger back in the Night';
+	font-size: 24px;
+	font-weight: lighter;
+}
+.deroulant{
+	width: 100%;
+	
+}
+.blog{
+	text-decoration: none;
+    background: #587062;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    color: white;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.blog:hover{
+	background:white;
+	color:#472B26;
+}
+
+.newsletter{
+	color:#472B26!important;
+}
+
+.grille{
+	margin-top: 150px;
+}
+.img-height{
+	height: 30vh;
+
+}
+.img-fit{
+	object-fit: cover;
+}
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+    align-items: center;
+    color: #472B26;
+    text-decoration: none;
+}
+h3{
+	text-align: center;
+	color: #292E35;
+	background-color: #99B7A8;
+	text-decoration: none;
+}
+.space-size{
+	width: 100%
 }
