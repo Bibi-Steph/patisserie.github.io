@@ -301,7 +301,7 @@ h3{
 	font-size:35px;
 	object-fit:cover;
 	margin-right:10px;
-	margin-top:15px;
+	margin-top:17px;
 }
 
 .card {
@@ -309,9 +309,10 @@ h3{
 }
 
 .logos-size {
-    height:9vh;
+    height:8vh;
     object-fit: cover;
-	margin-right:25px;
+    margin-right:25px;
+    margin-top:5px;
 }
 
 .contenair-footer {
