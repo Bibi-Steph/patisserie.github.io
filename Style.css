@@ -202,11 +202,12 @@ b {
     font-size: 14px;
     font-family: arial;
     font-weight: bold;
-    border-radius: 4px;
+    
 }
 .blog:hover{
 	background:white;
 	color:#472B26;
+
 }
 
 .newsletter{
@@ -239,12 +240,15 @@ a:hover + .box,.box:hover{
     align-items: center;
     color: #472B26;
     text-decoration: none;
+    background-color: white;
+    
 }
 h3{
 	text-align: center;
 	color: #292E35;
 	background-color: #99B7A8;
 	text-decoration: none;
+	border-radius: 5px;
 }
 .space-size{
 	width: 100%
