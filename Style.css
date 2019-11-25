@@ -2,8 +2,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	box-shadow: 0px 1.5px 10px #587062;
-
+	box-shadow: 0px 1.5px 10px grey;
+	width:100%;
+	background: white;
+	position: fixed;
+	top:0;
+	z-index:30;
 }
 
 .logo>img {
@@ -92,7 +96,7 @@ h3 {
     height:400px;
     align-items:center;
     object-fit:cover;
-    margin-bottom:30px;
+    margin-bottom:15px;
 }
 
 .btn {
@@ -114,8 +118,21 @@ h6 {
     border-radius:10%;
     width:200px;
 	height:200px;
-	margin-left: auto;
-    margin-right: auto
+	margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+}
+
+.container-contact>h1  {
+	text-align:center;
+	color:#587062;
+	font-family:arial;
+}
+
+.team-space>h1 {
+	text-align:center;
+	color:white;
+	font-family:arial;
 }
 
 h1 {
@@ -141,13 +158,21 @@ h1 {
 }
 .contact-card {
 	display:flex;
-	justify-content:center;
 	justify-content:space-around;
 }
 
 b {
 	text-align:center;
 }
+
+.team-space {
+	background-image:url('Images/farine.jpg');
+    background-repeat: no-repeat;
+	background-attachment:fixed;
+	min-width: 100%;
+    min-height: 100%;
+}
+
 .position {
 	font-family: arial;
 	font-size: 24px;
@@ -174,7 +199,6 @@ b {
     border-radius: 4px;
     display: flex;
     justify-content: left;
-    width: 100%;
            
  }
 
@@ -184,12 +208,12 @@ b {
 	text-decoration:none;
 }
 .scary{
-	font-family: 'Stranger back in the Night';
+	font-family: "Stranger back in the Night";
 	font-size: 24px;
 	font-weight: lighter;
 }
 .deroulant{
-	width: 100%;
+	width: 70%;
 	
 }
 .blog{
@@ -202,58 +226,75 @@ b {
     font-size: 14px;
     font-family: arial;
     font-weight: bold;
-    
+    border-radius: 4px;
 }
 .blog:hover{
 	background:white;
 	color:#472B26;
-
 }
 
 .newsletter{
 	color:#472B26!important;
 }
 
+@font-face{
+	font-family: "Stranger back in the Night";
+	src:url("police:Stranger back in the Night.ttf");
+}
 .grille{
-	margin-top: 100px;
-
+	margin-top: 150px;
 }
 .img-height{
 	height: 30vh;
-	border-radius: 5px;
 
 }
 .img-fit{
 	object-fit: cover;
-	box-shadow: 0px 1.5px 5px #472B26;
-	height: 50vh;
-}
-.box{
-    display: none;
-    width: 100%;
 }
 
-a:hover + .box,.box:hover{
-    display: block;
-    position: relative;
-    z-index: 100;
-    align-items: center;
-    color: #472B26;
-    text-decoration: none;
-    background-color: white;
-    
+.footer {
+	padding: 0px 50px;
+	height:70px;
+    box-shadow: 0px 1.5px 10px grey;
+	width:100%;
 }
-h3{
-	text-align: center;
-	color: #292E35;
-	background-color: #99B7A8;
-	text-decoration: none;
-	border-radius: 5px;
+
+.footer-links {
+	display:flex;
 }
-.space-size{
-	width: 100%
+
+.footer-logos {
+	display:flex;
 }
-.evenement{
-	display: flex;
-	justify-content: center;
+
+.footer-partners {
+	display:flex;
+}
+
+.icones-reseaux {
+	color:#472B26;
+	font-size:35px;
+	object-fit:cover;
+	margin-right:10px;
+	margin-top:15px;
+}
+
+.card {
+	background-color:rgba(255, 255, 255, 0.8);
+}
+
+.logos-size {
+    height:10vh;
+    object-fit: cover;
+	margin-right:25px;
+}
+
+.contenair-footer {
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+}
+
+body {
+	scroll-behavior:smooth;
 }
