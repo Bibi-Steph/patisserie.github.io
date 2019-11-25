@@ -207,11 +207,7 @@ b {
 	color:#472B26;
 	text-decoration:none;
 }
-.scary{
-	font-family: "Stranger back in the Night";
-	font-size: 24px;
-	font-weight: lighter;
-}
+
 .deroulant{
 	width: 70%;
 	
@@ -226,7 +222,6 @@ b {
     font-size: 14px;
     font-family: arial;
     font-weight: bold;
-    border-radius: 4px;
 }
 .blog:hover{
 	background:white;
@@ -237,20 +232,50 @@ b {
 	color:#472B26!important;
 }
 
-@font-face{
-	font-family: "Stranger back in the Night";
-	src:url("police:Stranger back in the Night.ttf");
-}
 .grille{
-	margin-top: 150px;
+	margin-top: 100px;
 }
+
 .img-height{
 	height: 30vh;
+	border-radius:5px;
 
 }
 .img-fit{
 	object-fit: cover;
+	box-shadow: 0px 1.5px 5px #472B26;
+	height: 50vh;
 }
+
+.box{
+    display: none;
+    width: 100%;
+}
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+    align-items: center;
+    color: #472B26;
+    text-decoration: none;
+    background-color: white;
+}
+h3{
+	text-align: center;
+	color: #292E35;
+	background-color: #99B7A8;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.space-size{
+	width: 100%
+}
+.evenement{
+	display: flex;
+	justify-content: center;
+}
+
+
 
 .footer {
 	padding: 0px 50px;
@@ -298,3 +323,4 @@ b {
 body {
 	scroll-behavior:smooth;
 }
+
